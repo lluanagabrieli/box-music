@@ -39,7 +39,7 @@ export interface Environment {
 export const defaultEnvironment: Environment = {
 production: false,
   nomeAba: 'SpotiRock',
-  theme: 'spotirock',
+  theme: 'spotify',
   estrutura: {
     interna: 'secondary',
     externa: 'primary',
@@ -59,9 +59,9 @@ production: false,
     logobranco: 'assets/wl-image/spotirock/logo.svg',
   },
   apiUrl: 'http://192.192.1.192:8080',
-  clientId: 'ms-spotirock',
+  clientId: 'ms-spotify',
   clientSecret: 'aaabbbccc',
-  realmName: 'ms-spotirock-realm',
+  realmName: 'ms-spotify-realm',
   color: {
     primary_color: '#000',
     primary_color_2: '#000',

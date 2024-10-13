@@ -3,7 +3,7 @@ import { Environment } from "../environment.model";
 export const environment: Environment = {
   production: false,
   nomeAba: 'VagaRock',
-  theme: 'vagarock',
+  theme: 'vagalume',
   estrutura: {
     interna: 'secondary',
     externa: 'primary',
@@ -24,9 +24,9 @@ export const environment: Environment = {
     telefone: '(35)0000-0000',
   },
   apiUrl: 'http://localhost:8080',
-  clientId: 'ms-vagarock',
+  clientId: 'ms-vagalume',
   clientSecret: '00000000',
-  realmName: 'ms-vagarock-realm',
+  realmName: 'ms-spotify-realm',
   color: {
     primary_color: '#000',
     primary_color_2: '#000',

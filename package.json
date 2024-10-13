@@ -6,7 +6,15 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "spotify:dev": "ng serve --configuration spotify-development",
+    "spotify:hom": "ng serve --configuration spotify-homolog",
+    "spotify:prod": "ng serve --configuration spotify-production",
+    "spotify:build": "ng build --configuration spotify-production",
+    "vagalume:dev": "ng serve --configuration vagalume-development",
+    "vagalume:hom": "ng serve --configuration vagalume-homolog",
+    "vagalume:prod": "ng serve --configuration vagalume-production",
+    "vagalume:build": "ng build --configuration vagalume-production"
   },
   "private": true,
   "dependencies": {
@@ -33,6 +41,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "tailwindcss": "^3.4.13",
     "typescript": "~5.4.2"
   }
 }

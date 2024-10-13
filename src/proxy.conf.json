@@ -1,0 +1,11 @@
+{
+  "/api/**": {
+    "target": "https://api.spotify.com.br",
+    "secure": false,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "changeOrigin": true,
+    "logLevel": "info"
+  }
+}

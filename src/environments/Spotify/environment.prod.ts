@@ -3,7 +3,7 @@ import { Environment } from "../environment.model";
 export const environment: Environment = {
   production: true,
   nomeAba: 'SpotiRock',
-  theme: 'spotirock',
+  theme: 'spotify',
   estrutura: {
     interna: 'secondary',
     externa: 'secondary',
@@ -24,9 +24,9 @@ export const environment: Environment = {
     telefone: '(35) 0000-0000',
   },
   apiUrl: 'http://localhost:8080',
-  clientId: 'ms-spotirock',
+  clientId: 'ms-spotify',
   clientSecret: '00000',
-  realmName: 'ms-spotirock-realm',
+  realmName: 'ms-spotify-realm',
   color: {
     primary_color: '#000',
     primary_color_2: '#000',
